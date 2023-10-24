@@ -8,13 +8,13 @@
 #                                                 /____/
 #
 # Title of your website
-title: 'The Public Digital Humanities Institute'
+title: '2024 Greater Boston Digital Research & Pedagogy Symposium'
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: 'An Institute for Academic/Community Collaboration'
+slogan: ''
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: 'An Institute for Academic/Community Collaboration'
+description: ''
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
 # credits: '<p>Created with &hearts; by <a href="http://phlow.de/">Phlow</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
@@ -26,7 +26,7 @@ description: 'An Institute for Academic/Community Collaboration'
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
 
-url: 'https://publicdh.org'
+url: ''
 baseurl: ''
 
 # This is for the editing function in _/includes/improve_content
@@ -195,7 +195,7 @@ og_type                              : 'website'
 #
 
 socialmedia:
-    twitter   : idrh_KU
+    twitter   : 
     facebook  : 
 
 
@@ -284,6 +284,5 @@ asciidoctor:
 #
 
 # Collections
-collections:
-    - faculty
-    - staff
+
+

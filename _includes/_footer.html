@@ -27,77 +27,57 @@
 <!-- Begin first footer block -->
  <div id="footer">
   <!-- ROW -->
-        <div id="footer-logos" class="row small-collapse align-spaced align-center" style="align-content: vertical;"> <!-- style="display: flex; justify-content: center; align-items: center;" -- Unless I'm doing it wrong, this "bootstrappy" way turns out not to be resposive with foundation -->
+        <div id="footer-logos" class="row small-collapse" style="align-content: vertical;">
 
-          <!-- Column 1 --><!--PDHI vert -->
-          <div class="small-4 large-3 columns">
-            <img id="pdhi-logo" class="footer-logo" src="{{ site.baseurl }}/images/logos/PDHI-logo-white_square.svg" alt="The Public Digital Humanities Institute"/>
+          <!-- Column 1 --><!--Boston DH -->
+          <div class="small-12 medium-4 columns">
+            <img id="dh-logo" class="footer-logo" src="{{ site.baseurl }}/images/logos/boston-dh-vert-white.png" alt="Boston Digital Humanities"/>
+        
           </div><!-- /.large-3.columns -->
 
 
-          <!-- Column 2 --><!-- IDRH -->
-          <div class="small-4 large-5 columns">
-            <a href="https://idrh.ku.edu"><img id="idrh-logo" class="footer-logo" src="{{ site.baseurl }}/images/logos/idrh-logo-white.png" alt="The Institute for Digital Research in the Humanities"/></a>
           
-          </div><!-- /.large-4.columns -->
+          <!-- Column 2 --><!-- Symposium nav -->
+          <div class="small-12 medium-3 columns">
+          <h3 style="font-size: 1rem; color: #fff; font-weight: bold;">Symposium</h3> 
+          <a href="{{ site.baseurl }}/index.html/">Home</a><br>
+          <a href="{{ site.baseurl }}/about/">About</a><br>
+          <a href="{{ site.baseurl }}/cfp/">Call for Proposals</a><br>
+          <a href="{{ site.baseurl }}/contact/">Contact<br>
+   
+          </div>
 
+          <!-- Column 3 --><!--Boston DH -->
 
-          <!-- Column 3 --><!-- NEH -->
-          <div class="small-4 large-4 columns">
-            <a href="https://www.neh.gov"><img id="neh-logo" class="footer-logo" src="{{ site.baseurl }}/images/logos/NEH-seal-white.png" alt="National Endownment for the Humanities"/></a>
-          
-          </div><!-- /.large-3.columns -->
+          <div class="small-12 medium-5 columns">
+          <h3 style="font-size: 1rem; color: #fff; font-weight: bold;">Boston DH</h3>
+          <a href="https://lists.brandeis.edu/wws/subscribe/bostondh">Mailing List</a><br>
+      
+          </div>
 
         </div><!-- /.row -->
 
 <!--ROW -->
 
       <div id="footer-links" class="row align-spaced">
-
-        <div id="footer-contact" class="large-3 columns">
-          Hosted by the Institute for Digital Research in the Humanities<br><br>
-          University of Kansas<br>
-          900 Sunnyside Ave<br>
-          Lawrence, KS 66045 <br>
-          <a href="mailto:idrh@ku.edu">idrh@ku.edu</a>
-        </div>
-
-
-        <div class="large-5 columns">
-          <hr>
-          <a href="{{ site.baseurl }}/schedule/">Schedule</a><hr>
-          <a href="{{ site.baseurl }}/logistics/">Logistics</a><hr>
-          <a href="{{ site.baseurl }}/conduct/">Code of Conduct</a>
-          
-        </div>
-
-
-        <div class="large-4 columns">
-        <hr>
-        <a href="{{ site.baseurl }}/idrh/">About the IDRH</a><hr>
-        <a href="{{ site.baseurl }}/contact/">Contact</a>
-        <hr>
-        </div>
-
-
-      </div><!-- /.row --> 
-
-
-
-
+      </div>
+<!-- /.row --> 
 
       </div><!-- /#footer -->
 
 
-<!-- Begin subfooter block --> 
+<!-- Optional subfooter block --> 
 
 
       <div id="subfooter">
-        <nav class="row align-center">
+        <div class="row align-center align-middle">
 
-          <div class="columns">
-            The Public Digital Humanities Institute has been made possible by a major grant from the <a href="https://www.neh.gov" style="color: #268684;">National Endowment for the Humanities: Democracy demands wisdom</a>. Any views, findings, conclusions, or recommendations expressed in this website do not necessarily represent those of the National Endowment for the Humanities.
-          </div><!-- The blue link color here is different than the primary one. It is accessible in contrast to the grey. -->
+        
+          <div class="medium-12 small-12 columns" style="text-align:center;">
+            <a href="https://tischlibrary.tufts.edu/"><img src="{{ site.baseurl }}/images/logos/tisch-logo-horiz-white.png" alt="Tufts University Libraries" style="max-width:275px;"/></a>
+
+          </div>
+           
 
           <!-- Social media icons -->
          <!--<section id="subfooter-right" class="small-12 medium-6 columns">
@@ -107,6 +87,6 @@
             {% endfor %}
             </ul>
           </section> -->
-        </nav>
+        </div>
       </div><!-- /#subfooter ~~>-->
     </footer>

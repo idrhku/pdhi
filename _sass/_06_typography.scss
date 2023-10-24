@@ -81,6 +81,13 @@ p.button a {
 }
 
 
+/* Custom footer typography
+------------------------------ */
+#footer a:hover {
+    border-bottom: 1px solid;
+}
+
+
 
 /* Headlines
    The hK::before logic is to accomodate a vert. offset for persistent

@@ -1,0 +1,76 @@
+---
+layout: compress
+format: homepage-layout-test
+skip: up-to-top
+---
+<!doctype html>
+<html class="no-js" lang="{% if site.language == nil %}en{% else %}{{ site.language }}{% endif %}">
+<head>
+	{% include _head.html %}
+</head>
+<body id="top-of-page" class="{{ layout.format }}">
+	{% unless page.skip_boilerplate %}
+	{% include _navigation.html %}
+	{% endunless %}
+
+<!-- CUSTOM HOME HEADER (replace masthead) -->
+<div id="home-header" style="padding: 30px 0; background-color: #d085b3; color: #fff;">
+	<div class="row" style="width: 100%; margin-left: auto; margin-right: auto; margin-top: 0; margin-bottom: 0; max-width: 62.5rem; display: table;">
+		<div class="small-12 columns" style="position: relative; padding-left: 0.9375rem; padding-right: 0.9375rem; float: left; margin: 0; width: 100%;">
+			<div class="header-title" style="text-align: left; font-size: 3.375rem;font-family: raleway,sans-serif; color: #fff;font-weight: 700;">
+			{{ page.header.title }}
+			</div><!-- /.header -->
+			<div class="header-subtitle" style="text-align: left; font-size: 1.5rem; font-family: raleway, sans-serif; font-weight: 300; padding-top: 1rem";>
+				{{ page.header.subtitle }}
+			</div><!-- /.subtitle -->
+
+<!-- call for action -->
+{% if page.callforaction && page.callforproposals %}
+    <div class="row" style="display: flex; justify-content: flex-start; flex-wrap: wrap; align-items: center; gap: 0.5em;">
+        <div><a class="button large radius {{ page.callforaction.style }}" href="{{ url }}{{ page.callforaction.url }}" style="margin-top: 5rem;" {% if page.callforaction.url contains 'https' %} target="_blank" {% endif %}>{{ page.callforaction.text }}</a>
+         </div>
+         <div><a class="button large radius {{ page.callforproposals.style }}" href="{{ url }}{{ page.callforproposals.url }}" style="margin-top: 5rem;" {% if page.callforproposals.url contains 'https' %} target="_blank" {% endif %}>{{ page.callforproposals.text }}</a>
+         </div>
+        </div><!-- /.row -->
+
+{% endif %} <!-- /. call for action -->
+
+
+
+		</div><!-- /. small 12 -->
+	</div><!-- /. row -->
+</div>
+
+
+<!-- BODY/CONTENT -->
+<div class="row t30">
+	<div class="medium-12 columns">
+		<article itemscope itemtype="http://schema.org/Article">
+
+			<div itemprop="articleSection">
+			{{ content }}
+			</div>
+
+			{% if page.show_meta == true %}
+			{% include _meta_information.html %}
+			{% endif %}
+		</article>
+	</div><!-- /.medium-8.columns -->
+</div><!-- /.row -->
+
+
+
+<!-- /.BODY -->
+
+	{% unless page.skip_boilerplate %}
+
+	{% unless page.skip_up-to-top %}
+	{% include _up-to-top.html %}
+	{% endunless %}
+
+	{% include _footer.html %}
+	{% endunless %}
+
+	{% include _footer_scripts.html %}
+</body>
+</html>

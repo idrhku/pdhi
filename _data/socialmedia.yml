@@ -1,14 +1,14 @@
 # Icons are in the /fonts folder
 
-- name: YouTube
-  url: http://www.youtube.com/idrh_KU
-  class: icon-youtube
-  title: "Find recordings on YouTube"
+# - name: YouTube
+#   url: http://www.youtube.com/
+#   class: icon-youtube
+#   title: ""
 
-- name: Twitter
-  url: http://twitter.com/idrh_KU
-  class: icon-twitter
-  title: "Follow us on Twitter"
+# - name: Twitter
+# url: 
+# class: icon-twitter
+# title: ""
 
 
 # - name: Facebook

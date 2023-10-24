@@ -336,7 +336,6 @@ body.video cite { color: #fff; }
 
 #footer {
     padding-top: 30px;
-    padding-bottom: 40px;
     background: $footer-bg;
     color: $footer-color;
     }
@@ -351,9 +350,15 @@ body.video cite { color: #fff; }
         text-transform: uppercase;
     }
 
+#footer-logos {
+    margin: 0.5rem;
+    padding-bottom: 10px;
+}
+
 /* Footer - Small
 ----------------------- */
 @media #{$small-only} {
+
     .footer-logo {
     display: none;
     padding-top: 0 !important;
@@ -366,24 +371,32 @@ body.video cite { color: #fff; }
     #footer-links hr:last-child {
     display: none;
     }
+
+    #footer-logos {
+    padding-left: 1rem;
+    padding-bottom: 2rem;    
+
+    }
+
 }
+
 
 
 /* Footer - Medium 
 ----------------------- */
+@media #{$medium-only} {
 
- @media #{$medium-only} {
-    .footer-logo {
-    display: none;
+#dh-logo {
+    max-width: 80%;
+    margin: 1rem;
+    padding-right: 2rem; 
+    border-right: 1px solid;
     }
 
-    #footer-links hr:last-child {
-        display: none;
+    #footer-links {
+    margin-top: 2.5rem;
     }
 
-    #footer-contact {
-    display: none;
-    }
 } 
 
 
@@ -392,20 +405,11 @@ body.video cite { color: #fff; }
 /* Footer - Large
 ----------------------- */
 @media #{$large-only}{
-    #pdhi-logo {
+    #dh-logo {
     max-width: 80%;
-    padding-right: 3rem; 
+    margin: 1rem;
+    padding-right: 2rem; 
     border-right: 1px solid;
-    }
-
-    #idrh-logo {
-    max-width: 90%;
-    margin-top: 3.5rem
-    }
-
-    #neh-logo {
-    max-width: 90%;
-    margin-top: 2.5rem;
     }
 
     #footer-links {
@@ -414,20 +418,10 @@ body.video cite { color: #fff; }
 }
 
 @media #{$xlarge-up}{
-    #pdhi-logo {
-    max-width: 90%;
+    #dh-logo {
+    max-width: 80%;
     padding-right: 3rem; 
     border-right: 1px solid;
-    }
-
-    #idrh-logo {
-    max-width: 90%;
-    margin-top: 3.5rem;
-    }
-
-    #neh-logo {
-    max-width: 90%;
-    margin-top: 2.5rem;
     }
 
     
@@ -444,7 +438,7 @@ body.video cite { color: #fff; }
 #subfooter {
     background: $subfooter-bg;
     color: $subfooter-color;
-    padding-top: 15px;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 

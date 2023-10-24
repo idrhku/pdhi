@@ -34,17 +34,27 @@ $ci-5               : #DF4949; // red
 $ci-6               : #A1D044; // green
 
 
-/* New Template 
+/* PDHI Template
 ------------------------------------------------------------------- */
-$dh-1               : #217473; // Blue-Green
+$pdh-1               : #217473; // Blue-Green
+$pdh-2               : #f58455; // Orange
+$pdh-3               : #e8d858; // Yellow
+$pdh-4               : #e7e8e8; // Cloud
+$pdh-5               : #39393a; // Soft Black
+$pdh-6 				  : #1c6161;  // Dark Blue-Green
+$pdh-7               : #fc7830; // Accessible Orange
+
+
+/* BOS DH Template
+------------------------------------------------------------------- */
+
+$dh-1               : #d085b3; // Dark Pink
 $dh-2               : #f58455; // Orange
-$dh-3               : #e8d858; // Yellow
+$dh-3               : #ffffff; // White
 $dh-4               : #e7e8e8; // Cloud
 $dh-5               : #39393a; // Soft Black
-$dh-6 				  : #1c6161; // Dark Blue-Green
+$dh-6               : #1c6161; // Dark Blue-Green
 $dh-7               : #fc7830; // Accessible Orange
-
-
 
 /* Foundation Color Variables
 ------------------------------------------------------------------- */
@@ -56,12 +66,12 @@ $success-color      : $ci-6;
 $warning-color      : $ci-4;
 $info-color         : $ci-1; */
 
-$primary-color      : $dh-1; // blue-green
+$primary-color      : $dh-1; // Pink
 $secondary-color    : $dh-5; // soft black
-$alert-color        : $dh-1; // blue-green
-$success-color      : $dh-1; // blue-green
-$warning-color      : $dh-2; // orange
-$info-color         : $dh-1; // blue-green
+$alert-color        : $dh-3; // white
+$tertiary           : $dh-3; // white
+$warning-color      : $dh-2; // 
+$info-color         : $dh-1; // 
 
 
 

@@ -1,13 +1,13 @@
 ---
-layout: page-fullwidth
-#background: grey
+layout: page
 permalink: /contact/
 header:
     title: Contact
-    slogan: Do you have a question about the Public Digital Humanities Institute, or need information not included on this website? Please let us know. We welcome your enquiries.
-    background-color: "#fff" # accessible blue-green for AA compliance is #2E8080 as a background. Original theme blue-green is #297373 (contrast ratio: 3.79 with black text)
-    underline-color: "#297373"
+    slogan: 
+    background-color: "#fff" 
+    underline-color: "#d085b3"
+
 ---
 
-Applicants should direct all questions to <idrh@ku.edu> or directly to co-directors Brian Rosenblum (<brianrosenblum@ku.edu>) or Dave Tell (<davetell@ku.edu>).
+Reach out to Kaylen Dwyer at <a href="mailto:kaylen.dwyer@tufts.edu">kaylen.dwyer@tufts.edu</a> with questions.
 

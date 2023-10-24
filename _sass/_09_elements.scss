@@ -101,6 +101,35 @@ button, .button         { letter-spacing: 1px; }
   .button.grey:hover,
   .button.grey:focus      { background-color: $grey-16; }
 
+.button.alert, .button.alert-2 {
+  font-size: $font-size-small;
+  text-transform: uppercase;
+  font-weight: $font-weight-bold;
+}
+
+.button.alert {
+  border-radius: $global-rounded;
+  border: 2px solid $alert-color;
+  color: $dh-1;
+}
+
+
+.button.alert:hover {
+  border: 2px solid $alert-color;
+  background-color: rgba(0,0,0,0);
+  color: $dh-3;
+}
+
+.button.alert-2 {
+  border-radius: $global-rounded;
+  border: 2px solid $dh-3;
+}
+
+.button.alert-2:hover {
+  background-color: $dh-3;
+  color: $dh-1;
+}
+
 
 
 /* Side-Nav
